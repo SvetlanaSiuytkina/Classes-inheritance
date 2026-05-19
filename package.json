@@ -1,0 +1,38 @@
+{
+  "name": "classes-inheritance",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SvetlanaSiuytkina/Classes-inheritance#readme",
+  "bugs": {
+    "url": "https://github.com/SvetlanaSiuytkina/Classes-inheritance/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaSiuytkina/Classes-inheritance.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint .js --fix"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "@eslint/js": "^10.0.1",
+    "babel-loader": "^10.1.1",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0",
+    "jest": "^30.4.2",
+    "jest-babel": "^1.0.1",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  }
+}
